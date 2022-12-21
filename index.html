@@ -30,31 +30,30 @@
         <div class="form">
             <h3>Confira o Clima de uma Cidade:</h3>
             <div class="form-input-container">
-                <input type="text" placeholder="Digite o nome da CIdade" id="city-input">
+                <input type="text" placeholder="Digite o nome da Cidade" id="city-input">
                 <button id="search">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </div>
         </div>
-        <div id="weather-data">
+        <div id="weather-data" class="hide">
             <h2>
                 <i class="fa-solid fa-location-dot"></i>
-                <span id="city">Maceió</span>
-                <img src="https://countryflagsapi.com/png/andorra" alt="" id="country">
+                <span id="city"></span>
             </h2>
-            <p id="temperature"><span>38</span>&deg;C</p>
+            <p id="temperature"><span></span>&deg;C</p>
             <div id="description-container">
-                <p id="description">Nublado</p>
+                <p id="description"></p>
                 <img src="http://openweathermap.org/img/wn/02d.png" alt="" id="weather-icon">
             </div>
             <div id="details-container">
-                <p id="umidity">
+                <p id="humidity" class="fontSize" >
                     <i class="fa-solid fa-droplet"></i>
-                    <span>48%</span>
+                    <span></span>
                 </p>
-                <p id="wind">
+                <p id="wind" class="fontSize">
                     <i class="fa-solid fa-wind"></i>
-                    <span>3km/h</span>
+                    <span></span>
                 </p>
             </div>
         </div>
